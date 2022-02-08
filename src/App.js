@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Profile from './component/Profile.js'
@@ -11,6 +10,8 @@ class App extends React.Component {
     }
   }
   reverse=()=>this.setState({bool:!this.state.bool})
+  
+  
   render(){
   return (
     <div>
